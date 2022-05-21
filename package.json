@@ -1,0 +1,19 @@
+{
+  "name": "test-lit",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "dotnet fable watch src --runFast vite",
+    "build": "dotnet fable build src --run vite build",
+    "preview": "dotnet fable build src --run vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "lit": "2.2.4"
+  }
+}
